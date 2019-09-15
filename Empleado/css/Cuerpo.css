@@ -1,0 +1,631 @@
+/***** Body para todas las hojas ******/
+.section{
+	overflow: hidden;
+	width:75%;
+}
+
+.cuerpo{
+	float: left;
+	width: 100%;
+	background: white;
+	min-height: 500px;
+}
+
+/************* Index.php ****************/
+
+/************* AnadirACarrito.php ****************/
+/*Borde para los productos */
+.bordeProductos{
+	border: 1px groove aliceblue;
+	overflow: hidden;
+	margin: 5px;
+}
+
+/* Imagen del producto */
+.imagenProducto{
+	float: left;
+	width: 30%;
+	background: white;
+	padding-top:50px;
+	min-height: 290px;
+}
+	.imagenProducto img{
+		min-height: 250px;
+		max-width: 90%;
+		max-height: 90%;
+	}
+
+/* Ficha con los datos del producto */
+.datosProducto{
+	float: left;
+	width: 70%;
+	background: white;
+	padding-top: 50px;
+	padding-left: 20px;
+	text-align: left;
+	font-family: verdana;
+}
+	.datosProducto h2{
+		text-align: center;
+		color:#001a00;
+	}
+
+	.datosProducto h4{
+		display: inline-block;
+	}
+
+	.datosProducto h3{
+		display: inline-block;
+	}
+
+	.datosProducto input[type=number]{
+		background: #b3ffcc;
+		width: 20%;
+		padding: 3px 5px;
+	}
+
+	.datosProducto .mostrarValores{
+		font-size: 25px;
+		padding: 5px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+
+	.stock{
+		text-align:right;
+		padding-right: 10px;
+		padding-bottom: 40px;
+		font-size: 16px;
+	}
+
+	.datosProducto button{
+		margin-left: 30%;
+		width: 160px;
+		margin-bottom:10px;
+	}
+/****************combustible **********************/
+.seleccionCombustible{
+	margin-bottom: 20px;
+	font-size:20px;
+}
+
+	.seleccionCombustible p{
+		display: inline-block;
+	}
+
+	.seleccionCombustible a{
+		margin-left: 20px;
+		text-decoration: none;
+		color:orange;
+		font-weight: bolder;
+	}
+
+	.seleccionCombustible a:active{
+		color:darkorange;
+	}
+
+.cambioCombustible{
+	margin-bottom: 10px;
+}
+
+	.cambioCombustible p{
+		display: inline-block;
+	}
+
+	.cambioCombustible button{
+		display: inline-block;
+		margin-left:30px;
+		width: 25%;
+		border-radius:30px;
+	}
+
+	/************* Consulta.php  *****************/
+	.tablaProductosSeleccionados {
+		margin-right: 15px;
+		font-size: 16px;
+		font-family: Monospace;
+	}
+
+	  .tablaProductosSeleccionados img{
+	    max-width: 60%;
+	    max-height: 60%;
+	  }
+
+		.tablaProductosSeleccionados th{
+			font-weight: bold;
+			font-size: 18px;
+			padding-top: 4px;
+			background-color: darkorange;
+		}
+
+		.tablaProductosSeleccionados th:first-child{
+			background-color: white !important;
+		}
+
+	  .tablaProductosSeleccionados td{
+	    text-align: center;
+	    padding: 10px;
+	    vertical-align: middle;
+	  }
+
+	  .tablaProductosSeleccionados td:first-child{
+	    width: 18%;
+			background-color: white !important;
+			border: 2px solid white;
+		}
+
+		.tablaProductosSeleccionados .cancelar{
+			background-color: white !important;
+		}
+
+		.tablaProductosSeleccionados td:last-child button{
+			float: left;
+			display: inline-block;
+			font-size: 15px;
+			margin: 3px;
+		}
+
+
+		.tablaProductosSeleccionados tr:nth-child(even) td{
+			background-color: #b3b3ff;
+		}
+
+		.tablaProductosSeleccionados tr:nth-child(odd) td{
+			background-color: #ccccff;
+		}
+
+	.totalDelPedido{
+	  width: 20%;
+	  text-align: center;
+	  margin-left: auto;
+		background-color: darkorange;
+		border-radius: 20px;
+		margin-right: 10px;
+		margin-bottom: 30px;
+	  }
+
+	  .totalDelPedido td{
+	    padding: 10px;
+			font-size: 20px;
+			font-weight: bold;
+	  }
+
+	.formDatosCompra{
+		margin-bottom: 50px;
+	}
+
+		.formDatosCompra label{
+			font-size: 18px;
+		}
+
+
+/*********** Conocenos.php ******************/
+
+.Mapa{
+	margin-bottom: 15px;
+}
+
+/************* CategoriaFiltro.php ****************/
+/* Filtro de búsqueda */
+.filtro fieldset{
+	border: 1px solid;
+	text-align: left;
+	padding: 7px;
+	margin: 10px;
+	background-color: #00cc44;
+}
+
+.filtro legend{
+	background: white;
+	padding: 0px 5px;
+}
+
+.filtro input[type=search]{
+	border-color: #001a00;
+	background:  #b3ffcc;
+}
+
+.categorias{
+	text-align: left;
+	margin-top: 10px;
+}
+
+	.categorias p{
+		display: inline-block;
+	}
+
+.filtro button{
+	float: right;
+}
+
+/* Productos que muestra */
+	.producto{
+		padding: 10px;
+		width: 33%;
+		display: inline-block;
+		float: left;
+		margin-bottom: 20px;
+		height: 180px;
+	}
+
+	.producto a{
+		text-decoration: none;
+		color:black;
+	}
+
+	.producto a:focus{
+		color:red;
+	}
+
+	.producto h3{
+		color: red;
+		padding-top: 5px;
+	}
+
+  .item{
+		max-width: 200px;
+    max-height: 120px;
+  }
+
+	.fa-plus-square{
+		color:#001a00;
+	}
+
+/* Redicción hacia AnadirProducto.php*/
+.anadirArticulo a i{
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+.anadirArticulo a i:hover{
+	color: #4d4d4d;
+}
+
+.anadirArticulo a i:active{
+	color: orange;
+}
+
+/* Barra de precio */
+.slidecontainer {
+  width: 100%;
+}
+
+	.slidecontainer p{
+		display: inline-block;
+	}
+
+	/* Color número precio */
+	#demo{
+		color: white;
+		font-weight: bold;
+	}
+
+.slider {
+  -webkit-appearance: none;
+  width: 30%;
+  height: 5px;
+  border-radius: 5px;
+  background: grey;
+  outline: none;
+  opacity: 0.8;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:active {
+  opacity: 1;
+  background: darkorange;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #001a00;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #001a00;
+  cursor: pointer;
+}
+
+/* Paginacion */
+.paginacion{
+	float: left;
+	width:95%;
+	background: #b3ffcc;
+	margin:30px 20px 5px 20px;
+	padding:7px 0px;
+}
+
+	.paginacion a{
+		text-decoration: none;
+		color: #001a00;
+		font-size: 18px;
+		padding-right: 7px;
+		font-weight: bolder;
+	}
+
+	.paginacion a:first-child{
+		padding-right: 30px;
+	}
+
+
+/************* HacerPedido.php y RecogerPedido.php ****************/
+.tablaPedidos{
+	width: 90%;
+	margin-left: 5%;
+}
+
+	.tablaPedidos th{
+		border: 2px solid black;
+		text-align: center;
+		background-color: #aac5de;
+		font-family: Monospace;
+		font-size: 15px;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.tablaPedidos td{
+		border: 2px solid black;
+		text-align: center;
+
+		background-color: white;
+		font-family: Monospace;
+		font-size: 15px;
+		font-weight: bold;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		vertical-align: baseline;
+	}
+
+	.tablaPedidos .cancelar{
+		border: none;
+	}
+
+	.tablaPedidos h1{
+		padding-top: 20px;
+		font-family: Monospace;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	 caption{
+		margin-top:20px;
+		background: orange;
+		border: 2px solid;
+		padding: 2.5px;
+	}
+
+
+/************* prepararlo.php y Consulta.php****************/
+/* Fechas del pedido */
+.fechas{
+	float: left;
+	width: 100%;
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: verdana;
+	color: #001a00;
+}
+
+	.fechas h4{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.fechas .horaPedido{
+		border: 2px solid #001a00;
+		display: inline-block;
+		padding: 5px;
+		background: lightcyan;
+	}
+
+	/* Datos del cliente */
+	.datosCliente{
+		width: 100%;
+		background: skyblue;
+		text-align: left;
+		font-size: 20px;
+	}
+		.datosCliente table{
+			margin: auto;
+			font-size: 18px;
+		}
+
+			.datosCliente table tr td{
+				padding: 5px;
+			}
+
+		.datosCliente .etiqueta{
+			font-style: italic;
+			font-family: comic;
+			text-align: center;
+			background: royalblue;
+		}
+
+/* Lista de los productos */
+.listaProductos{
+	width: 100%;
+	margin-top: 15px;
+	font-size: 25px;
+	font-style: italic;
+	font-family: comic;
+}
+
+	.listaProductos table{
+		font-size: 16px;
+		font-style: normal;
+		font-family: times;
+		margin:auto;
+	}
+
+		.listaProductos table tr td{
+			vertical-align: middle;
+		}
+
+		.listaProductos .precioTotal{
+			text-align: center;
+			font-size: 20px;
+			font-family: Helvetica;
+			margin-top: 5px;
+		}
+		
+
+/* EstadoProducto */
+.estadoProducto{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 16px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.pagado{
+	color: green;
+}
+
+.nopagado{
+	color: red;
+}
+
+/* Botones */
+.botones{
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.botones button{
+	margin-right: 80px;
+}
+
+/******************* Añadir/EditarProductos.php *********************/
+.anadir{
+	float: left;
+	display: inline-block;
+	width: 65%;
+	text-align: left;
+	margin: 80px 0px 0px 0px;
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+	.anadir input{
+		border-color: #001a00;
+	}
+
+	.anadir select{
+		font-size: 18px;
+		margin: 20px -80px 0px 100px;
+	}
+
+.anadirFoto{
+	float: left;
+	width: 35%;
+	background: white;
+	padding-top:50px;
+	height: 290px;
+}
+
+	.anadirFoto input[type=image]{
+		height: 250px;
+		max-width: 90%;
+		max-height: 90%;
+		border:1px solid black;
+	}
+
+/* Botones submit de AñadirProducto*/
+	.anadir .probando{
+		margin: 30px 0px 0px -70px;
+	}
+
+/* Botones submit de EditarProductos */
+.anadir .probandoEditar{
+	margin: 20px 0px 0px 100px;
+}
+
+.probandoEditar a{
+	padding: 6px;
+}
+
+.probandoEditar input{
+	padding: 6px;
+	width: 20%;
+}
+
+/* Borrar productos*/
+	.anadir p{
+		margin-top: 80px;
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.anadir button{
+		margin: 20px 0px 0px 150px;
+	}
+
+	.probando button{
+		padding: 5px;
+		margin-right: 20px;
+	}
+
+	.probando input{
+		width: 20%;
+		padding: 5px;
+		margin-right: 20px;
+	}
+
+	.probando a{
+		padding: 6px;
+	}
+
+	.editar{
+		font-weight: bolder;
+		font-style: italic;
+		text-align: left;
+		margin-left: 40px;
+		margin-top:10px;
+	}
+
+	.editar #boton{
+		margin-left: 200px;
+	}
+
+	.separador{
+	margin-right: 5%;
+}
+
+.sep{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top:25px;
+	margin-right:5%;
+}
+
+.sep2{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.cuerpoPrin {
+	margin-top: 10%;
+}
+
+.cuerpo input {
+	margin-top: 15px;
+}
+
+
+}

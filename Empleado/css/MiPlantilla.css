@@ -1,0 +1,577 @@
+/******* Reseteo código css ***************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******************* Mis Predefinidos ************************/
+/*Fondo*/
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4ddb4+0,83c783+17,52b152+57,008a00+90,005700+96,002400+100 */
+	background: #b4ddb4; /* Old browsers */
+	background: -moz-linear-gradient(top, #b4ddb4 0%, #83c783 17%, #52b152 57%, #008a00 90%, #005700 96%, #002400 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #b4ddb4 0%,#83c783 17%,#52b152 57%,#008a00 90%,#005700 96%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 57%,#008a00 90%,#005700 96%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+}
+
+/*Para bordes*/
+* {
+    box-sizing: border-box !important;
+}
+/*Hgroup*/
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size:18px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+}
+
+/*Letra negrita*/
+strong{
+    font-weight: bold;
+}
+
+/*Letras header*/
+span{
+    color: #E02800;
+}
+/*Input's*/
+input{
+  border: 3px solid #001a00;
+  border-radius: 4px;
+	margin:0px 0px 5px 10px;
+}
+  input:focus{
+    border: 3px solid red;
+    border-radius: 4px;
+	}
+
+input[type=text]{
+	width: 50%;
+}
+
+input[type=submit]{
+	border: none;
+  background: red;
+  color:white;
+  border-radius: 20px;
+  padding: 3px;
+  width:10%;
+}
+
+	input[type=submit]:hover{
+		background: #ff3333;
+	}
+
+  input[type=submit]:active{
+    background-color: #ff2222;
+    color:orange;
+  	border-radius: 20px;
+  }
+
+	input[type=email]{
+		width: 50%;
+	}
+
+	input[type=password]{
+	  width: 50%;
+	}
+
+	input[type=tel]{
+		width:20%;
+	}
+
+	input[type=search]{
+		width: 85%;
+	}
+
+	input[type=range]{
+		border-color: #808080;
+	}
+
+	input[type=range]:active{
+		border-color: orange;
+	}
+
+	input[type=number]{
+		border-color: #001a00;
+	}
+
+/*Botones*/
+.btn{
+  border-radius: 10px;
+  border:3px solid;
+  padding:10px 8px;
+  font-size:16px ;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-primary{
+  background: white;
+  border-color: navy;
+	color: navy;
+}
+
+  .btn-primary:hover{
+    background: navy;
+		color: white;
+		border-color: white;
+  }
+
+	.btn-primary:active{
+		background: teal;
+	}
+
+.btn-secundary{
+  background: white;
+  border-color: orangered;
+	color: orangered;
+}
+
+  .btn-secundary:hover{
+		background: orangered;
+		border-color: white;
+		color: white;
+  }
+
+	.btn-secundary:active{
+		background: teal;
+	}
+
+	.btn-special{
+			border: none;
+		  background: #a6a6a6;
+		  color:white;
+		  border-radius: 20px;
+		  padding: 1px;
+		  width:10%;
+			font-size: 14px;
+			font-weight: normal;
+		}
+
+			.btn-special:hover{
+				background: #c0c0c0;
+			}
+
+			.btn-special:active{
+				background: #c0c0c0;
+				color: orange;
+			}
+
+
+/******************************** NuestroProyecto ***************************/
+/******** Lugar de trabajo ********/
+#wrapper{
+  margin: 120px auto 0px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+  width:100%;
+  text-align: center;
+  min-height: 500px;
+  box-sizing: border-box;
+}
+
+/**************** Header *************/
+#cabecera{
+  position: fixed;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  top: 0px;
+  z-index: 999;
+}
+
+  .menu-header{
+    margin: 0 auto;
+    position: relative;
+    max-width: 960px;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+  }
+
+    .container-header{
+      background: white;
+      overflow: hidden;
+      position: relative;
+      width:100%;
+			border: 3px solid #001a00;
+			border-radius: 10px;
+    }
+
+/* Bloque con el logo de la Empresa */
+.logoEmpresa{
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+	.logoEmpresa a img{
+		height:90px;
+		width: 170px;
+	}
+
+/* Bloque con buscador, Inicio Sesión, ubicación y carrito de compra */
+.login{
+  width: 80%;
+  float: right;
+  overflow: hidden;
+}
+
+  .lista-login{
+    position: relative;
+    margin-top: 25px ;
+    margin-bottom: 20px;
+    width:100%;
+  }
+
+/* Buscador */
+.inputConIcono input{
+  display: block;
+  text-decoration: none;
+  height: 32px;
+  float: left;
+  width:35%;
+	margin: 15px 10px 0px 75px;
+	padding-left:40px;
+	border-color: #001a00;
+	background-color: #b3ffcc;
+}
+
+  .inputConIcono input:focus + i{
+    color: orange;
+  }
+
+	.inputConIcono i{
+		position:absolute;
+		left:0px;
+		top:0px;
+		padding:3px 3px;
+		color: white;
+		background-color: #001a00;
+		transition:.3s;
+		font-size: 26px;
+		margin: 15px 0px 0px 75px;
+	}
+
+/* Inicio de Sesión en la cabecera */
+.lista-login .SesionCabecera{
+  color:white;
+  background: #001a00;
+  float:left;
+  width:42%;
+	border-radius: 15px;
+	margin:-5px 0px 0px 30px;
+}
+
+	.lista-login .SesionCabecera p{
+		font-size: 22px;
+		margin:10px 0px 0px 0px;
+		padding-right: 20px;
+	}
+
+	.lista-login .SesionCabecera i{
+		font-size: 35px;
+		float:left;
+		padding: 10px 10px 10px 20px;
+	}
+
+	.lista-login .SesionCabecera a{
+		font-size: 10px;
+		color:white;
+		font-style: italic;
+		width: 50%;
+	}
+
+	.lista-login .SesionCabecera input{
+		width: 40%;
+		float: left;
+		margin: 5px 0px 5px 50px;
+	}
+
+/* Ubicación */
+.lista-login a{
+  float:left;
+  width:15%;
+  font-size: 50px;
+}
+
+.fa-street-view{
+	margin-top: 5px;
+	color: mediumseagreen;
+}
+
+ .lista-login .fas:hover{
+		color:orange;
+	}
+
+	.lista-login .fas:active{
+		 color:orangered;
+	 }
+
+/****** Menu Vertical Principal con los subloques desplegables ************/
+.nav-Menu{
+	float:left;
+	overflow: hidden;
+	width:25%;
+	padding:10px;
+	background: #001a00;
+	min-height: inherit;
+}
+
+	.menuPpal li{
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #001a00;
+  }
+
+		.menuPpal li a{
+			display: block;
+			padding:10px 0px;
+			box-sizing: border-box;
+			font-size: 18px;
+			background: #001a00;
+			color:white;
+			text-decoration: none;
+	   }
+
+			.menuPpal li a:active{
+				color:white;
+			}
+
+      .menuPpal li a:hover{
+        background:orange;
+      }
+
+			.menuPpal li a:active{
+				color:orangered;
+			}
+
+/* Desplegable */
+.menuPpal li .desplegable{
+  display: none;
+}
+
+  .menuPpal li:hover .desplegable{
+    display:block;
+  }
+
+		.desplegable:hover{
+			background:orange;
+		}
+
+      .desplegable li{
+        width: 100%;
+			  padding-top: 5px;
+			  padding-bottom: 5px;
+			  background: #009933;
+				border:0px;
+      }
+
+    		.desplegable li:first-child{
+    			border-top: 2px solid white;
+    		}
+
+    		.desplegable li:last-child{
+    			border-bottom: 2px solid white;
+    		}
+
+          .desplegable li a{
+            display: block;
+  					background: #009933;
+  					font-size: 15px;
+          }
+
+/*Menu Vertical Cuenta con los subloques desplegables*/
+.menuMiCuenta{
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+	.Etiqueta{
+		font-size: 25px;
+		font-style: italic;
+		color:orangered;
+	}
+
+	.menuMiCuenta li{
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #001a00;
+  }
+
+    .menuMiCuenta li a{
+  		display: block;
+  		padding:10px 0px;
+  		box-sizing: border-box;
+  		font-size: 18px;
+  		background: #001a00;
+  		text-decoration: none;
+			color: white;
+    }
+
+      .menuMiCuenta li a:hover{
+        background:orange;
+      }
+
+			.menuMiCuenta li a:active{
+				color:orangered;
+			}
+
+/* Desplegable */
+
+.menuMiCuenta li .desplegable{
+  display: none;
+}
+
+.menuMiCuenta li:hover .desplegable{
+  display:block;
+}
+
+    .desplegable li{
+      width: 100%;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  background: #009933;
+			border:0px;
+    }
+
+		.desplegable li:active{
+			color: orangered;
+		}
+
+			.desplegable li:first-child{
+				border-top: 2px solid white;
+			}
+
+			.desplegable li:last-child{
+				border-bottom: : 2px solid white;
+			}
+
+        .desplegable li a{
+            display: block;
+  					background: #009933;
+  					font-size: 15px;
+        }
+
+/************Footer************/
+#pie{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid black;
+  width: 100%;
+  background: #212121;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+  .servicios{
+    position: relative;
+    width: 100%;
+  }
+    .menu-footer{
+      overflow: hidden;
+      width:100%;
+      position: relative;
+      font-size: 22px;
+      font-style: italic;
+      color: orange;
+    }
+
+      .menu-footer li{
+        width: 50%;
+        float: left;
+      }
+
+        .menu-footer li a{
+          display: inline-block;
+          padding:10px;
+          text-decoration: none;
+          color: orange;
+					font-size: 28px;
+        }
+
+          .menu-footer li a:hover{
+            color: #E02800;
+            font-size: 34px;
+          }
+
+          .menu-footer li a:active{
+            color:white;
+            font-size: 25px;
+          }
+
+            .menu-footer li i{
+							font-size: 18px;
+            }

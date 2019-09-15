@@ -1,0 +1,596 @@
+/******* Reseteo código css ***************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/******************* Mis Predefinidos ************************/
+/*Fondo*/
+body{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,aac5de+17,6199c7+50,3a84c3+51,419ad6+59,4bb8f0+71,3a8bc2+84,26558b+100;Blue+Gloss */
+	background: rgb(206,219,233); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%, rgba(97,153,199,1) 50%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%, rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+ }
+
+/*Para bordes*/
+* {
+    box-sizing: border-box !important;
+}
+/*Hgroup*/
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size:18px;
+}
+
+h5{
+    font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+}
+
+/*Letra negrita*/
+strong{
+    font-weight: bold;
+}
+
+/*Letras header*/
+span{
+    color: #E02800;
+}
+/*Input's*/
+input{
+  border: 3px solid lightseagreen;
+  border-radius: 4px;
+	margin:0px 0px 5px 10px;
+}
+  input:focus{
+    border: 3px solid red;
+    border-radius: 4px;
+	}
+
+input[type=text]{
+	width: 50%;
+}
+
+input[type=submit]{
+	border: none;
+  background: red;
+  color:white;
+  border-radius: 20px;
+  padding: 3px;
+  width:10%;
+}
+
+	input[type=submit]:hover{
+		background: #ff3333;
+	}
+
+  input[type=submit]:active{
+    background-color: #ff2222;
+    color:orange;
+  	border-radius: 20px;
+  }
+
+	input[type=email]{
+		width: 50%;
+	}
+
+	input[type=password]{
+	  width: 50%;
+	}
+
+	input[type=tel]{
+		width:20%;
+	}
+
+	input[type=search]{
+		width: 85%;
+	}
+
+	input[type=range]{
+		border-color: #808080;
+	}
+
+	input[type=range]:active{
+		border-color: orange;
+	}
+
+	input[type=number]{
+		border-color: navy;
+	}
+
+/*Botones*/
+.btn{
+  border-radius: 10px;
+  border:3px solid;
+  padding:7px 6px;
+  font-size:16px ;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btn-primary{
+  background: white;
+  border-color: navy;
+	color: navy;
+}
+
+  .btn-primary:hover{
+    background: navy;
+		color: white;
+		border-color: white;
+  }
+
+	.btn-primary:active{
+		background: teal;
+	}
+
+.btn-secundary{
+  background: white;
+  border-color: orangered;
+	color: orangered;
+}
+
+  .btn-secundary:hover{
+		background: orangered;
+		border-color: white;
+		color: white;
+  }
+
+	.btn-secundary:active{
+		background: teal;
+	}
+
+	.btn-special{
+		border: none;
+	  background: #a6a6a6;
+	  color:white;
+	  border-radius: 20px;
+	  padding: 3px;
+	  width:10%;
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+		.btn-special:hover{
+			background: #c0c0c0;
+		}
+
+		.btn-special:active{
+			background: #c0c0c0;
+			color: orange;
+		}
+
+/******************************** NuestroProyecto ***************************/
+/******** Lugar de trabajo ********/
+#wrapper{
+  margin: 120px auto 0px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 960px;
+  width:100%;
+  text-align: center;
+  min-height: 500px;
+  box-sizing: border-box;
+}
+
+/**************** Header *************/
+#cabecera{
+  position: fixed;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  top: 0px;
+  z-index: 999;
+}
+
+  .menu-header{
+    margin: 0 auto;
+    position: relative;
+    max-width: 960px;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+  }
+
+    .container-header{
+      background: white;
+      overflow: hidden;
+      position: relative;
+      width:100%;
+			border: 3px solid navy;
+			border-radius: 10px;
+    }
+
+/* Bloque con el logo de la Empresa */
+.logoEmpresa{
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+	.logoEmpresa a img{
+		height:90px;
+		width: 170px;
+	}
+
+/* Bloque con buscador, Inicio Sesión, ubicación y carrito de compra */
+.login{
+  width: 80%;
+  float: right;
+  overflow: hidden;
+}
+
+  .lista-login{
+    position: relative;
+    margin-top: 25px ;
+    margin-bottom: 20px;
+    width:100%;
+  }
+
+/* Buscador */
+.inputConIcono input[type=search]{
+  display: block;
+  text-decoration: none;
+  height: 32px;
+  float: left;
+  width:30%;
+  margin-right: 10px;
+	margin-top: 15px;
+	padding-left:40px;
+	border-color: navy;
+	background-color: lightcyan;
+}
+
+  .inputConIcono input[type=search]:focus + i{
+    color: orange;
+  }
+
+	.inputConIcono i{
+		position:absolute;
+		left:0px;
+		top:0px;
+		padding:3px 3px;
+		color: white;
+		background-color: navy;
+		transition:.3s;
+		font-size: 26px;
+		margin-top:15px;
+	}
+
+/* Inicio de Sesión en la cabecera */
+.SesionCabecera{
+  font-size: 28px;
+  color:white;
+  background: navy;
+  float:left;
+  width:50%;
+	border-radius: 15px;
+	margin-top:-5px;
+}
+
+	.lista-login .SesionCabecera i{
+		float:left;
+		padding: 5px;
+	}
+
+	.lista-login .SesionCabecera input{
+		width: 40%;
+		float: left;
+		margin: 5px;
+		margin-top: 10px;
+	}
+
+	.lista-login .SesionCabecera a{
+		font-size: 10px;
+		color:white;
+		font-style: italic;
+		width: 50%;
+	}
+
+	.lista-login .SesionCabecera p{
+		font-size: 26px;
+	}
+
+/* Botón de Iniciar Sesión */
+.lista-login .SesionCabecera input[type=submit]{
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+.SesionCabecera a:hover{
+	color:orange;
+}
+
+.SesionCabecera a:focus{
+	color:red;
+}
+
+/* Ubicación y carrito */
+.lista-login a{
+  float:left;
+  width:8%;
+  font-size: 40px;
+}
+
+.fa-shopping-cart{
+	margin-top: 10px;
+	color: gold;
+}
+
+.fa-street-view{
+	margin-top: 10px;
+	color: mediumseagreen;
+	margin-left: 30px;
+}
+
+ .lista-login .fas:hover{
+		color:orange;
+	}
+
+	.lista-login .fas:active{
+		 color:orangered;
+	 }
+
+/****** Menu Vertical Principal con los subloques desplegables ************/
+.nav-Menu{
+	float:left;
+	overflow: hidden;
+	width:25%;
+	padding:10px;
+	background: navy;
+	min-height: inherit;
+}
+
+	.menuPpal li{
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: navy;
+  }
+
+		.menuPpal li a{
+			display: block;
+			padding:10px 0px;
+			box-sizing: border-box;
+			font-size: 18px;
+			background: navy;
+			color:white;
+			text-decoration: none;
+	   }
+
+			.menuPpal li a:active{
+				color:white;
+			}
+
+      .menuPpal li a:hover{
+        background:orange;
+      }
+
+			.menuPpal li a:active{
+				color:orangered;
+			}
+
+/* Desplegable */
+.menuPpal li .desplegable{
+  display: none;
+}
+
+  .menuPpal li:hover .desplegable{
+    display:block;
+  }
+
+		.desplegable:hover{
+			background:orange;
+		}
+
+      .desplegable li{
+        width: 100%;
+			  padding-top: 5px;
+			  padding-bottom: 5px;
+			  background: #208DED;
+				border:0px;
+      }
+
+    		.desplegable li:first-child{
+    			border-top: 2px solid white;
+    		}
+
+    		.desplegable li:last-child{
+    			border-bottom: 2px solid white;
+    		}
+
+          .desplegable li a{
+            display: block;
+  					background: #208DED;
+  					font-size: 15px;
+          }
+
+/*Menu Vertical Cuenta con los subloques desplegables*/
+.menuMiCuenta{
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+	.Etiqueta{
+		font-size: 25px;
+		font-style: italic;
+		color:orangered;
+	}
+
+	.menuMiCuenta li{
+    width: 100%;
+    border-top: 2px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: navy;
+  }
+
+    .menuMiCuenta li a{
+  		display: block;
+  		padding:10px 0px;
+  		box-sizing: border-box;
+  		font-size: 18px;
+  		background: navy;
+  		text-decoration: none;
+			color: white;
+    }
+
+      .menuMiCuenta li a:hover{
+        background:orange;
+      }
+
+			.menuMiCuenta li a:active{
+				color:orangered;
+			}
+
+/* Desplegable */
+
+.menuMiCuenta li .desplegable{
+  display: none;
+}
+
+.menuMiCuenta li:hover .desplegable{
+  display:block;
+}
+
+    .desplegable li{
+      width: 100%;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  background: #208DED;
+			border:0px;
+    }
+
+		.desplegable li:active{
+			color: orangered;
+		}
+
+			.desplegable li:first-child{
+				border-top: 2px solid white;
+			}
+
+			.desplegable li:last-child{
+				border-bottom: : 2px solid white;
+			}
+
+        .desplegable li a{
+            display: block;
+  					background: #208DED;
+  					font-size: 15px;
+        }
+
+/************Footer************/
+#pie{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid black;
+  width: 100%;
+  background: #212121;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+  .servicios{
+    position: relative;
+    width: 100%;
+  }
+    .menu-footer{
+      overflow: hidden;
+      width:100%;
+      position: relative;
+      font-size: 22px;
+      font-style: italic;
+      color: orange;
+    }
+
+      .menu-footer li{
+        width: 50%;
+        float: left;
+      }
+
+        .menu-footer li a{
+          display: inline-block;
+          padding:10px;
+          text-decoration: none;
+          color: orange;
+					font-size: 28px;
+        }
+
+          .menu-footer li a:hover{
+            color: #E02800;
+            font-size: 34px;
+          }
+
+          .menu-footer li a:active{
+            color:white;
+            font-size: 25px;
+          }
+
+            .menu-footer li i{
+							font-size: 18px;
+            }

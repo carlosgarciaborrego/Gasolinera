@@ -1,0 +1,172 @@
+/*************************RESPONSIVE WEB DESIGN*************************/
+/***************Tablets***********/
+@media screen and (max-width: 786px){
+  .col-tab-1 {width:10%;}
+  .col-tab-2 {width:20%;}
+  .col-tab-3 {width:30%;}
+  .col-tab-4 {width:40%;}
+  .col-tab-5 {width:50%;}
+  .col-tab-6 {width:60%;}
+  .col-tab-7 {width:70%;}
+  .col-tab-8 {width:80%;}
+  .col-tab-9 {width:90%;}
+  .col-tab-10 {width:100%;
+}
+
+/************** Header ************/
+.lista-login{
+  margin-top:30px;
+  margin-left:40px;
+  float:left;
+}
+/*Logo*/
+.logoEmpresa {
+  margin: 20px 0px 35px -10px;
+}
+
+.logoEmpresa a img{
+  height:60px;
+  width: 100px;
+}
+/*Buscador*/
+.inputConIcono input[type=search]{
+  margin: 10px 10px 0px -40px;
+}
+
+.inputConIcono i{
+  margin: 10px 10px 0px -40px;
+}
+
+/*Sesión*/
+.SesionCabecera{
+  margin: -10px 10px 0px 10px;
+}
+
+  .cerrar{
+    margin-left:50px !important;
+  }
+
+.logueado{
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+/*Carrito*/
+.fa-shopping-cart{
+  margin: -10px 0px 0px 10px;
+}
+
+/************** combustibles ************/
+.btn{
+  padding:3px 2px;
+  font-size:12px ;
+}
+
+.datosProducto button{
+  width: 120px;
+}
+
+.cambioCombustible input[type=number]{
+    width: 80%;
+    margin-top: 5px;
+}
+
+.botonesCombustible button{
+  margin-left:10px;
+}
+
+
+/************************Smartphones***********************/
+@media screen and (max-width: 450px){
+  .col-1 {width:10%;}
+  .col-2 {width:20%;}
+  .col-3 {width:30%;}
+  .col-4 {width:40%;}
+  .col-5 {width:50%;}
+  .col-6 {width:60%;}
+  .col-7 {width:70%;}
+  .col-8 {width:80%;}
+  .col-9 {width:90%;}
+  .col-10 {width:100%;
+}
+
+/********* header ***************/
+.error{
+  width: 80%;
+  padding: 0px;
+  margin:4px 30px;
+  border: none;
+}
+
+/*Logo*/
+.logoEmpresa{
+  display: none;
+}
+
+/*Buscador*/
+.lista-login{
+  margin-left:10px;
+}
+
+
+.inputConIcono input[type=search]{
+  margin:0px 0px 0px 5px;
+}
+
+.inputConIcono i{
+  margin:0px 0px 0px 5px;
+}
+
+/* Stret*/
+.bye{
+  display: none;
+}
+
+/*Inicio de Sesión*/
+.SesionCabecera{
+margin-top: -25px;
+margin-bottom: -15px;
+}
+
+.logueado{
+  margin: 5px 0px 0px 10px;
+}
+
+.SesionCabecera p{
+  margin:10px 0px 0px 0px!important;
+}
+
+.SesionCabecera input[type=text]{
+  width:70%;
+}
+
+.SesionCabecera input[type=password]{
+  width:70%;
+  margin-top: -3px;
+  margin-left:42px;
+}
+
+.SesionCabecera input[type=submit]{
+  margin-left: 70px !important;
+  margin-top: -10px;
+  width: 90px;
+}
+
+.fa-shopping-cart{
+ display: none;
+}
+
+/*************** Editar Producto ************************/
+.editar #boton{
+  margin-left: 60px;
+}
+
+/************* Footer *****************/
+.menu-footer li{
+  font-size: 16px;
+}
+.menu-footer li a{
+  font-size: 16px;
+}
+
+}
